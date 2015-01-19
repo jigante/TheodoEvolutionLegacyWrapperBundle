@@ -1,5 +1,5 @@
 {
-    "name": "theodo-evolution/legacy-wrapper-bundle",
+    "name": "jigante/legacy-wrapper-bundle",
     "type": "symfony-bundle",
     "keywords": ["legacy", "symfony1", "symfony2"],
     "homepage": "http://www.theodo.fr",
@@ -18,24 +18,6 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "composer/composer": "~1.0@dev",
         "symfony/framework-bundle": "~2.1"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.1",
-        "phpspec/prophecy": "~1.1",
-        "phpspec/prophecy-phpunit": "~1.0",
-        "theodo-evolution/fake-projects": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/theodo/theodo-evolution-fake-projects"
-        }
-    ],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
     }
 }
