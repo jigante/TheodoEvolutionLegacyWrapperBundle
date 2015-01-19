@@ -10,7 +10,6 @@
             "homepage": "http://www.theodo.fr"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Theodo\\Evolution\\Bundle\\LegacyWrapperBundle\\": ""
